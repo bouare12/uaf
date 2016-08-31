@@ -1,15 +1,19 @@
 body{
-	
+		
 }
+
 .container{
 	width: 1100px;
 	margin: 0 auto;
 	margin-top: 40px;
-
+	background: #DCDCDC;
+}
 	nav{
 
 		ul{
 			&.preNav{
+				text-decoration: none;
+				background: blue;
 				a{
 					text-decoration: none;
 				}
@@ -38,7 +42,7 @@ body{
 		margin: 0 auto;
 		margin-top: 40px;
 
-
+}
 		img {
 			max-width: 100%;
 			margin: 10px;
@@ -54,6 +58,7 @@ body{
 
 			&:first-child {
 				margin-left: 0;
+				margin-left: 20;
 			}
 		}
 		.text{
@@ -62,11 +67,13 @@ body{
 			left:0;
 			//width:100px;
 			z-index:10;
+			margin-left: 20;
 		}
 
 		.lastText{
 			margin-top: 20px;
 			display: inline-block;
+			margin-left: 20;
 		}
 
 		.Search{
@@ -114,6 +121,7 @@ body{
 			}
 			.fotright{
 				float: right;
+				margin-right: 20px;
 				li{
 
 					a{
@@ -122,5 +130,4 @@ body{
 				}
 			}
 		}
-	}
-}
+	
