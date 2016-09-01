@@ -9,6 +9,7 @@ body{
 	background: #DCDCDC;
 }
 	nav{
+		background: white;
 
 		ul{
 			&.preNav{
@@ -85,6 +86,7 @@ body{
 		}
 		.prefooter{
 
+
 			display: inline-block;
 
 			.P1{
@@ -109,9 +111,10 @@ body{
 			}
 		}
 		footer{
-
+			background: #696969;
 			.fotleft{
 				float: left;
+				
 				li{
 					display: inline-block;
 					a{

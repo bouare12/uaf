@@ -6,48 +6,52 @@
   background: #DCDCDC;
 }
 
-/* line 13, ../sass/homep.scss */
+/* line 11, ../sass/homep.scss */
+nav {
+  background: white;
+}
+/* line 14, ../sass/homep.scss */
 nav ul {
   display: inline-block;
   list-style-type: none;
   margin: 0px;
   margin-top: 0px;
 }
-/* line 14, ../sass/homep.scss */
+/* line 15, ../sass/homep.scss */
 nav ul.preNav {
   text-decoration: none;
   background: blue;
 }
-/* line 17, ../sass/homep.scss */
+/* line 18, ../sass/homep.scss */
 nav ul.preNav a {
   text-decoration: none;
 }
-/* line 26, ../sass/homep.scss */
+/* line 27, ../sass/homep.scss */
 nav ul li {
   display: inline-block;
   inline-block: center;
 }
-/* line 30, ../sass/homep.scss */
+/* line 31, ../sass/homep.scss */
 nav ul li a {
   text-decoration: none;
   margin: 10px;
   inline-block: center;
 }
 
-/* line 40, ../sass/homep.scss */
+/* line 41, ../sass/homep.scss */
 .container {
   width: 1100px;
   margin: 0 auto;
   margin-top: 40px;
 }
 
-/* line 46, ../sass/homep.scss */
+/* line 47, ../sass/homep.scss */
 img {
   max-width: 100%;
   margin: 10px;
 }
 
-/* line 51, ../sass/homep.scss */
+/* line 52, ../sass/homep.scss */
 .col-2 {
   background-image: url("../img/1.jpeg") no-repeat;
   width: 40%;
@@ -56,13 +60,13 @@ img {
   position: relative;
   z-index: 1;
 }
-/* line 59, ../sass/homep.scss */
+/* line 60, ../sass/homep.scss */
 .col-2:first-child {
   margin-left: 0;
   margin-left: 20;
 }
 
-/* line 64, ../sass/homep.scss */
+/* line 65, ../sass/homep.scss */
 .text {
   position: relative;
   top: 0;
@@ -71,63 +75,67 @@ img {
   margin-left: 20;
 }
 
-/* line 73, ../sass/homep.scss */
+/* line 74, ../sass/homep.scss */
 .lastText {
   margin-top: 20px;
   display: inline-block;
   margin-left: 20;
 }
 
-/* line 81, ../sass/homep.scss */
+/* line 82, ../sass/homep.scss */
 .Search input {
   margin-top: 2%;
   width: 80%;
 }
 
-/* line 86, ../sass/homep.scss */
+/* line 87, ../sass/homep.scss */
 .prefooter {
   display: inline-block;
 }
-/* line 90, ../sass/homep.scss */
+/* line 92, ../sass/homep.scss */
 .prefooter .P1 {
   border: 2px ridge black;
   display: inline-block;
   width: 30%;
   margin: 5%;
 }
-/* line 96, ../sass/homep.scss */
+/* line 98, ../sass/homep.scss */
 .prefooter .P1 a {
   text-decoration: none;
 }
-/* line 101, ../sass/homep.scss */
+/* line 103, ../sass/homep.scss */
 .prefooter .P2 {
   border: 2px ridge black;
   width: 30%;
   display: inline-block;
 }
-/* line 106, ../sass/homep.scss */
+/* line 108, ../sass/homep.scss */
 .prefooter .P2 a {
   text-decoration: none;
 }
 
 /* line 113, ../sass/homep.scss */
+footer {
+  background: #696969;
+}
+/* line 115, ../sass/homep.scss */
 footer .fotleft {
   float: left;
 }
-/* line 115, ../sass/homep.scss */
+/* line 118, ../sass/homep.scss */
 footer .fotleft li {
   display: inline-block;
 }
-/* line 117, ../sass/homep.scss */
+/* line 120, ../sass/homep.scss */
 footer .fotleft li a {
   text-decoration: none;
 }
-/* line 122, ../sass/homep.scss */
+/* line 125, ../sass/homep.scss */
 footer .fotright {
   float: right;
   margin-right: 20px;
 }
-/* line 127, ../sass/homep.scss */
+/* line 130, ../sass/homep.scss */
 footer .fotright li a {
   text-decoration: none;
 }
