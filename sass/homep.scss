@@ -1,136 +1,73 @@
 body{
-		
-}
-
-.container{
-	width: 1100px;
-	margin: 0 auto;
-	margin-top: 40px;
-	background: #DCDCDC;
-}
-	nav{
-		background: white;
-
-		ul{
-			&.preNav{
-				text-decoration: none;
-				background: blue;
-				a{
-					text-decoration: none;
-				}
-			}
-			display: inline-block;
-			list-style-type: none;
-			margin: 0px;
-			margin-top: 0px;
-
-			li{
-				display: inline-block;
-				inline-block: center;
-
-				a{
-					text-decoration: none;
-					margin: 10px;
-					inline-block: center;
-				}
-			}
-		}
-
-	}
-
-	.container {
-		width: 1100px;
-		margin: 0 auto;
-		margin-top: 40px;
 
 }
-		img {
-			max-width: 100%;
-			margin: 10px;
-		}
+.banniere{
 
-		.col-2 {
-			background-image: url('../img/1.jpeg') no-repeat;
-			width: 40%;
-			margin-left: 2.333%;
-			float: left;
-			position: relative;
-			z-index:1;
+	.content{
+		width: 940px;
+		margin: auto;
+		font-family: arial;
+		color: rgb(84, 84, 82);
+		font-size: 12px;
+		height: 35px;
 
-			&:first-child {
-				margin-left: 0;
-				margin-left: 20;
-			}
-		}
-		.text{
-			position:relative;
-			top:0;
-			left:0;
-			//width:100px;
-			z-index:10;
-			margin-left: 20;
-		}
+		nav{
 
-		.lastText{
-			margin-top: 20px;
-			display: inline-block;
-			margin-left: 20;
-		}
+			.prenav{
+				block: left;
 
-		.Search{
-
-			input{
-				margin-top: 2%;
-				width: 80%;
-			}
-		}
-		.prefooter{
-
-
-			display: inline-block;
-
-			.P1{
-				border: 2px ridge black;
-				display: inline-block;
-				width: 30%;
-				margin: 5%;
-
-				a{
-					text-decoration: none;
-				}
-			}
-
-			.P2{
-				border: 2px ridge black;
-				width: 30%;
-				display: inline-block;
-
-				a{
-					text-decoration: none;
-				}
-			}
-		}
-		footer{
-			background: #696969;
-			.fotleft{
-				float: left;
-				
 				li{
 					display: inline-block;
+
 					a{
-						text-decoration: none;
+
+						img{
+						height: 29px;
+						width: auto;
+						border: medium none;
+						}
 					}
 				}
 			}
-			.fotright{
-				float: right;
-				margin-right: 20px;
-				li{
 
-					a{
-						text-decoration: none;
+			.prenavleft{
+				float: right;
+
+				li{
+					
+					span{
+					display: inline-block;
+					position: relative;
+					float: right;
+					padding: 0px 10px;
+					border-radius: 5px;
+					top: 5px;
+					line-height: 25px;
+					background-color: rgb(204, 204, 204);
+					cursor: pointer;
+
 					}
 				}
 			}
 		}
-	
+	}
+}
+.premenu{
+	width: 100% !important;
+	background: #202020;
+	border-bottom: 4px solid #ff4812;
+	.contenair{
+		width: 940px;
+		margin: auto;
+		font-family: arial;
+		color: rgb(84, 84, 82);
+		font-size: 12px;
+		height: 35px;
+		
+		ul{
+			li{
+				display: inline-block;
+			}
+		}
+	}
+}

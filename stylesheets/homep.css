@@ -1,141 +1,59 @@
-/* line 5, ../sass/homep.scss */
-.container {
-  width: 1100px;
-  margin: 0 auto;
-  margin-top: 40px;
-  background: #DCDCDC;
+/* line 6, ../sass/homep.scss */
+.banniere .content {
+  width: 940px;
+  margin: auto;
+  font-family: arial;
+  color: #545452;
+  font-size: 12px;
+  height: 35px;
 }
-
-/* line 11, ../sass/homep.scss */
-nav {
-  background: white;
+/* line 16, ../sass/homep.scss */
+.banniere .content nav .prenav {
+  block: left;
 }
-/* line 14, ../sass/homep.scss */
-nav ul {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0px;
-  margin-top: 0px;
-}
-/* line 15, ../sass/homep.scss */
-nav ul.preNav {
-  text-decoration: none;
-  background: blue;
-}
-/* line 18, ../sass/homep.scss */
-nav ul.preNav a {
-  text-decoration: none;
-}
-/* line 27, ../sass/homep.scss */
-nav ul li {
-  display: inline-block;
-  inline-block: center;
-}
-/* line 31, ../sass/homep.scss */
-nav ul li a {
-  text-decoration: none;
-  margin: 10px;
-  inline-block: center;
-}
-
-/* line 41, ../sass/homep.scss */
-.container {
-  width: 1100px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-/* line 47, ../sass/homep.scss */
-img {
-  max-width: 100%;
-  margin: 10px;
-}
-
-/* line 52, ../sass/homep.scss */
-.col-2 {
-  background-image: url("../img/1.jpeg") no-repeat;
-  width: 40%;
-  margin-left: 2.333%;
-  float: left;
-  position: relative;
-  z-index: 1;
-}
-/* line 60, ../sass/homep.scss */
-.col-2:first-child {
-  margin-left: 0;
-  margin-left: 20;
-}
-
-/* line 65, ../sass/homep.scss */
-.text {
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  margin-left: 20;
-}
-
-/* line 74, ../sass/homep.scss */
-.lastText {
-  margin-top: 20px;
-  display: inline-block;
-  margin-left: 20;
-}
-
-/* line 82, ../sass/homep.scss */
-.Search input {
-  margin-top: 2%;
-  width: 80%;
-}
-
-/* line 87, ../sass/homep.scss */
-.prefooter {
+/* line 19, ../sass/homep.scss */
+.banniere .content nav .prenav li {
   display: inline-block;
 }
-/* line 92, ../sass/homep.scss */
-.prefooter .P1 {
-  border: 2px ridge black;
-  display: inline-block;
-  width: 30%;
-  margin: 5%;
+/* line 24, ../sass/homep.scss */
+.banniere .content nav .prenav li a img {
+  height: 29px;
+  width: auto;
+  border: medium none;
 }
-/* line 98, ../sass/homep.scss */
-.prefooter .P1 a {
-  text-decoration: none;
-}
-/* line 103, ../sass/homep.scss */
-.prefooter .P2 {
-  border: 2px ridge black;
-  width: 30%;
-  display: inline-block;
-}
-/* line 108, ../sass/homep.scss */
-.prefooter .P2 a {
-  text-decoration: none;
-}
-
-/* line 113, ../sass/homep.scss */
-footer {
-  background: #696969;
-}
-/* line 115, ../sass/homep.scss */
-footer .fotleft {
-  float: left;
-}
-/* line 118, ../sass/homep.scss */
-footer .fotleft li {
-  display: inline-block;
-}
-/* line 120, ../sass/homep.scss */
-footer .fotleft li a {
-  text-decoration: none;
-}
-/* line 125, ../sass/homep.scss */
-footer .fotright {
+/* line 33, ../sass/homep.scss */
+.banniere .content nav .prenavleft {
   float: right;
-  margin-right: 20px;
 }
-/* line 130, ../sass/homep.scss */
-footer .fotright li a {
-  text-decoration: none;
+/* line 38, ../sass/homep.scss */
+.banniere .content nav .prenavleft li span {
+  display: inline-block;
+  position: relative;
+  float: right;
+  padding: 0px 10px;
+  border-radius: 5px;
+  top: 5px;
+  line-height: 25px;
+  background-color: #cccccc;
+  cursor: pointer;
+}
+
+/* line 55, ../sass/homep.scss */
+.premenu {
+  width: 100% !important;
+  background: #202020;
+  border-bottom: 4px solid #ff4812;
+}
+/* line 59, ../sass/homep.scss */
+.premenu .contenair {
+  width: 940px;
+  margin: auto;
+  font-family: arial;
+  color: #545452;
+  font-size: 12px;
+  height: 35px;
+}
+/* line 68, ../sass/homep.scss */
+.premenu .contenair ul li {
+  display: inline-block;
 }
