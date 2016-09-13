@@ -56,6 +56,7 @@ body{
 	width: 100% !important;
 	background: #202020;
 	border-bottom: 4px solid #ff4812;
+
 	.contenair{
 		width: 940px;
 		margin: auto;
@@ -79,5 +80,26 @@ body{
 				}
 			}
 		}
+	}
+}
+.contenaire{
+	width: 100% !important;
+	margin: auto;
+	height: 54px;
+	border-bottom: 1px solid #d7d7d7;
+	.PreSleader{
+		margin-left: 450px;
+
+		li{
+			display: inline-block;
+
+			a{
+				text-decoration: none;
+				font-size: 11px;
+				color: #202020;
+				margin-left: 10px;
+			}
+		}
+
 	}
 }

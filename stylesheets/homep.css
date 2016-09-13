@@ -44,7 +44,7 @@
   background: #202020;
   border-bottom: 4px solid #ff4812;
 }
-/* line 59, ../sass/homep.scss */
+/* line 60, ../sass/homep.scss */
 .premenu .contenair {
   width: 940px;
   margin: auto;
@@ -53,13 +53,36 @@
   font-size: 12px;
   height: 35px;
 }
-/* line 68, ../sass/homep.scss */
+/* line 69, ../sass/homep.scss */
 .premenu .contenair ul li {
   display: inline-block;
 }
-/* line 73, ../sass/homep.scss */
+/* line 74, ../sass/homep.scss */
 .premenu .contenair ul li .LG1 .MG1 {
   float: left;
   width: 145px;
   line-height: 40px;
+}
+
+/* line 85, ../sass/homep.scss */
+.contenaire {
+  width: 100% !important;
+  margin: auto;
+  height: 54px;
+  border-bottom: 1px solid #d7d7d7;
+}
+/* line 90, ../sass/homep.scss */
+.contenaire .PreSleader {
+  margin-left: 450px;
+}
+/* line 93, ../sass/homep.scss */
+.contenaire .PreSleader li {
+  display: inline-block;
+}
+/* line 96, ../sass/homep.scss */
+.contenaire .PreSleader li a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #202020;
+  margin-left: 10px;
 }
