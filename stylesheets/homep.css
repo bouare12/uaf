@@ -86,3 +86,13 @@
   color: #202020;
   margin-left: 10px;
 }
+
+/* line 106, ../sass/homep.scss */
+.contenair {
+  width: 940px;
+  margin: auto;
+  font-family: arial;
+  color: #545452;
+  font-size: 12px;
+  height: 35px;
+}
